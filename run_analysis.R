@@ -69,6 +69,6 @@ dataDT <- data.table(dataDT)
 setkey(dataDT, subject, activity_labels)
 meanDT <- dataDT[ , lapply(.SD,mean), by=.(subject, activity_labels), .SDcols=3:68 ]
 
-
+write.table(meanDT, file="tidy.txt", row.names=FALSE)
 
 
