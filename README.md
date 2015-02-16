@@ -13,7 +13,7 @@ After reading the data into R, for the purposes of this "Getting and Cleaning Da
 
 The data frame was converted into a data table and the mean was run across all  observations for each of the 6 activities for each of the 30 subjects across all 66 variables.  This resulted in a tidy dataset of 180 observations (6 activities X 30 subjects) of 66 variables. 
 
-The data can be read back  into R with the following command:  
+Save the "tidy.txt" file to your working directoyr.  The data can be read back into R with the following command:  
 
 tidyDF <- read.table("tidy.txt", header=TRUE)
 
