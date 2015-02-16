@@ -14,4 +14,8 @@ ACTIVITY_LABELS
             5 Standing
             6 Laying
 
-The remaining variables relate to different smart phone readings.  For more information see referenced article.
+The remaining 66 variables were filtered from an original data set of 561 variables for just those variables relating to either the "mean" or the "std"  (note: the "freq" variables related to some of the means were not included either).
+
+The tidy dataset is the mean of the readings for each variable for each activity for each subject, a total of 66 variables per 6 activities for 30 subjects. 
+
+The variable names were retained from the original dataset becuase of their complexity and specificity.  Each of the 66 variables relates to a different smart phone reading.  For more information see referenced article. 
