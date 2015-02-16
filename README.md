@@ -11,7 +11,11 @@ run_analysis.R is also commented on for futher information.
 
 After reading the data into R, for the purposes of this "Getting and Cleaning Data" assignment,the three data frames from the "training" and "testing" files were merged respectively and then merged together into one main data frame. At this point, the data was filtered for just those variables relating to either the "mean" or the "std"  (note: the "freq" variables related to some of the means were not included either) for a total of 66 variables per 6 activities for 30 subjects.  
 
-The data frame was converted into a data table and the mean was run across all  observations for each of the 6 activities for each of the 30 subjects across all 66 variables.  This resulted in a tidy dataset of 180 observations (6 activities X 30 subjects) of 66 variables.  
+The data frame was converted into a data table and the mean was run across all  observations for each of the 6 activities for each of the 30 subjects across all 66 variables.  This resulted in a tidy dataset of 180 observations (6 activities X 30 subjects) of 66 variables. 
+
+The data can be read back  into R with the following command:  
+
+tidyDF <- read.table("tidy.txt", header=TRUE)
 
 
 
