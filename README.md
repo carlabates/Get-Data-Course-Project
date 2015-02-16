@@ -2,11 +2,11 @@
 
 The files included in this repo are -
 
-*tidy.txt - the tidy dataset which is described below
-*Code Book.txt - describes the variables in the tidy dataset
-*README.MD - describes the R script used to obtain the tidy dataset
-*Lab_readme.txt - the original readme from the study which describes the smartphone readings
-*run_analyis.R - the R script itslef.
+* tidy.txt - the tidy dataset which is described below  
+* Code Book.txt - describes the variables in the tidy dataset  
+* README.MD - describes the R script used to obtain the tidy dataset  
+* Lab_readme.txt - the original readme from the study which describes the smartphone readings  
+* run_analyis.R - the R script itslef.  
 
 The tidy dataset can be obtained by downloading the data set from the link below into your working directory and running the R script.  You will need the data.table library to run the script.
 
