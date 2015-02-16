@@ -1,0 +1,17 @@
+DATA DICTIONARY
+
+The reference for the data used in this project is "Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. *Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.* International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012"
+
+SUBJECT 
+      Subject identifiers 1-30
+
+ACTIVITY_LABELS
+      Activity engaged in for one observation:
+            1 Walking
+            2 Walking upstairs
+            3 Walking downstairs
+            4 Sitting
+            5 Standing
+            6 Laying
+
+The remaining variables relate to different smart phone readings.  For more information see referenced article.
